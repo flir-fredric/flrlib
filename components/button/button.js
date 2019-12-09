@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import './button.scss'
 
 const Button = (props) => {
-  const { invert, children } = props
+  const { invert, children, ...rest } = props
 
   const classes = classNames(
     'flr-button',
@@ -14,7 +14,7 @@ const Button = (props) => {
   )
 
   return (
-    <button className={classes}>
+    <button className={classes} {...rest}>
       {children}
     </button>
   )
