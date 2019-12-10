@@ -1,6 +1,6 @@
 {
   "name": "flrlib",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Test library.",
   "main": "index.js",
   "scripts": {
